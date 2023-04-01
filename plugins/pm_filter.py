@@ -846,16 +846,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],  [
              InlineKeyboardButton('DISCLAIMER', callback_data='disclaimer')
         ],  [
+             InlineKeyboardButton('CHANNELS & GROUPS ', callback_data='channels')
+        ],  [
 
-            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/+cHFG071nmPsyYzBh'),
+            InlineKeyboardButton(' HΞLᎮ ', callback_data='help'),
 
-            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/+cDIjx6c8NcdlNmM5')
-
-        ], [
-
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton(' ΛBOUT ', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -942,6 +938,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)             
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == channels":
+        buttons= [[
+            InlineKeyboardButton(' MAIN CHANNEL ', url='https://t.me/+cDIjx6c8NcdlNmM5')
+            ],[
+            InlineKeyboardButton(' SPONCER CHANNEL ', url='https://t.me/+1ln9xnUu9nc2NTI1')
+            ],[
+            InlineKeyboardButton(' MAIN GROUP ', url='https://t.me/+cHFG071nmPsyYzBh')
+            ],[
+            InlineKeyboardButton(' MAIN OTT CHANNEL ', url='https://t.me/+wcT6xMAi6IkwODMx')
+            ],[
+            InlineKeyboardButton('OTT CH 2', url='https://t.me/+HCTV9ikiHDg0ZGEx'),
+            InlineKeyboardButton('OTT CH 3', url='https://t.me/+E7aCflT5AhY2YjFh')
+           ],[
+            InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
+            InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)        
+        await query.message.edit_text(
+            text=script.CHANNELS_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
