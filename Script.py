@@ -3,7 +3,7 @@ class script(object):
 
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
 ✯ Lɪʙʀᴀʀʏ: Pʏʀᴏɢʀᴀᴍ
-✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href=http://t.me/Thisis_sanu>𝐒ል𝐍ሁ❀</a>
+✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href=https://t.me/aboutme_sanu>𝐒ል𝐍ሁ❀</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ✯ DᴀᴛᴀBᴀsᴇ: MᴏɴɢᴏDB
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: Hᴇʀᴜᴋᴜ ᴘᴀɪᴅ
@@ -15,7 +15,7 @@ class script(object):
 -Oʀɪɢɪɴᴀʟ sᴏᴜʀᴄᴇ :- https://github.com/Rascal72/ARAKKAL-ABU-BOT
 
 <b>DEVS:</b>
-- 𝙳𝚎𝚟  <a href=https://t.me/Thisis_sanu>Sanu</a>"""
+- 𝙳𝚎𝚟  <a href=https://t.me/aboutme_sanu>Sanu</a>"""
 
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
