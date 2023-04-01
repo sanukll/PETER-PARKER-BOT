@@ -344,6 +344,9 @@ I can approve users in Groups/Channels.Add me to your chat and promote me to adm
 Powerd By : @Sanusmoviesch"""
     
 
+    CHANNELS_TXT = """HI!!
+THESE ARE OUR CHANNELS AND GROUPS RUN BY @CINEMA_KALAVARA
+JOIN OUR ALL CHANNEL TO GET ALL MOVIES AS FILES ✨⭐❤️***
 
     
 
