@@ -10,9 +10,9 @@ class script(object):
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.0.3"""
 
     SOURCE_TXT = """<b>NOTE:</b>
--sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ʙᴀsᴇᴅ ᴏɴ ᴇᴠᴀ ᴍᴀʀɪᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ 
+-sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ʙᴀsᴇᴅ ᴏɴ ᴇᴠᴀ ᴍᴀʀɪᴀ, ᴘʀᴏғғᴇsᴏʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 
--Oʀɪɢɪɴᴀʟ sᴏᴜʀᴄᴇ ʟɪɴᴋ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ 🚶🏿 
+-Oʀɪɢɪɴᴀʟ sᴏᴜʀᴄᴇ :- https://github.com/Rascal72/ARAKKAL-ABU-BOT
 
 <b>DEVS:</b>
 - 𝙳𝚎𝚟  <a href=https://t.me/Thisis_sanu>Sanu</a>"""
