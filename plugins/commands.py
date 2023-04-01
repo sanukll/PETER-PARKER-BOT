@@ -37,22 +37,18 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
-        buttons = [[
+        buttons =  [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
         ],  [
              InlineKeyboardButton('DISCLAIMER', callback_data='disclaimer')
         ],  [
+             InlineKeyboardButton('CHANNELS & GROUPS ', callback_data='channels')
+        ],  [
 
-            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/+cHFG071nmPsyYzBh'),
+            InlineKeyboardButton(' HΞLᎮ ', callback_data='help'),
 
-            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/+cDIjx6c8NcdlNmM5')
-
-        ], [
-
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton(' ΛBOUT ', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -96,22 +92,18 @@ async def start(client, message):
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
+        buttons =  [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
         ],  [
              InlineKeyboardButton('DISCLAIMER', callback_data='disclaimer')
         ],  [
+             InlineKeyboardButton('CHANNELS & GROUPS ', callback_data='channels')
+        ],  [
 
-            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/+cHFG071nmPsyYzBh'),
+            InlineKeyboardButton(' HΞLᎮ ', callback_data='help'),
 
-            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/+cDIjx6c8NcdlNmM5')
-
-        ], [
-
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton(' ΛBOUT ', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
