@@ -941,7 +941,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == channels":
+    elif query.data == "channels":
         buttons= [[
             InlineKeyboardButton(' MAIN CHANNEL ', url='https://t.me/+cDIjx6c8NcdlNmM5')
             ],[
