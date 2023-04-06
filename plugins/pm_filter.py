@@ -841,17 +841,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":   
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('✚ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ✚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
         ],  [
-             InlineKeyboardButton('DISCLAIMER', callback_data='disclaimer')
+             InlineKeyboardButton('✆ 𝙳𝙸𝚂𝙲𝙻𝙰𝙸𝙼𝙴𝚁', callback_data='disclaimer')
         ],  [
-             InlineKeyboardButton('CHANNELS & GROUPS ', callback_data='channels')
+             InlineKeyboardButton('➣ 𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂 & 𝙶𝚁𝙾𝚄𝙿𝚂', callback_data='channels')
         ],  [
 
-            InlineKeyboardButton(' HΞLᎮ ', callback_data='help'),
+            InlineKeyboardButton(' ☛ 𝙷𝙴𝙻𝙿 ☚ ', callback_data='help'),
 
-            InlineKeyboardButton(' ΛBOUT ', callback_data='about')
+            InlineKeyboardButton(' ☛ 𝙰𝙱𝙾𝚄𝚃 ☚ ', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
