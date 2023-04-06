@@ -943,16 +943,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "channels":
         buttons= [[
-            InlineKeyboardButton(' MAIN CHANNEL ', url='https://t.me/+cDIjx6c8NcdlNmM5')
+            InlineKeyboardButton(' ♠ 𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♠ ', url='https://t.me/+cDIjx6c8NcdlNmM5')
             ],[
-            InlineKeyboardButton(' SPONCER CHANNEL ', url='https://t.me/+1ln9xnUu9nc2NTI1')
+            InlineKeyboardButton(' ♠ 𝚂𝙿𝙾𝙽𝙲𝙴𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♠ ', url='https://t.me/+1ln9xnUu9nc2NTI1')
             ],[
-            InlineKeyboardButton(' MAIN GROUP ', url='https://t.me/+cHFG071nmPsyYzBh')
+            InlineKeyboardButton(' ♠ 𝙼𝙰𝙸𝙽 𝙶𝚁𝙾𝚄𝙿 ♠ ', url='https://t.me/+cHFG071nmPsyYzBh')
             ],[
-            InlineKeyboardButton(' MAIN OTT CHANNEL ', url='https://t.me/+wcT6xMAi6IkwODMx')
+            InlineKeyboardButton(' ♠ 𝙼𝙰𝙸𝙽 𝙾𝚃𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♠ ', url='https://t.me/+wcT6xMAi6IkwODMx')
             ],[
-            InlineKeyboardButton('OTT CH 2', url='https://t.me/+HCTV9ikiHDg0ZGEx'),
-            InlineKeyboardButton('OTT CH 3', url='https://t.me/+E7aCflT5AhY2YjFh')
+            InlineKeyboardButton('♠ 𝙾𝚃𝚃 𝙲𝙷 2 ♠', url='https://t.me/+HCTV9ikiHDg0ZGEx'),
+            InlineKeyboardButton('♠ 𝙾𝚃𝚃 𝙲𝙷 3 ♠', url='https://t.me/+E7aCflT5AhY2YjFh')
            ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
@@ -978,7 +978,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "autoapprove":
         buttons= [[
-            InlineKeyboardButton(' ADD BOT ', url='http://t.me/Sm_Arakkal_abu_bot?startchannel=true')
+            InlineKeyboardButton(' ᴀᴅᴅ ʙᴏᴛ ᴛᴏ yᴏᴜʀ ᴄʜᴀɴɴᴇʟ ', url='http://t.me/Sm_Arakkal_abu_bot?startchannel=true')
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
@@ -991,7 +991,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton(' 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ', callback_data='source')
+            InlineKeyboardButton(' ➬ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
@@ -1004,7 +1004,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ABOUT ME', url='https://t.me/sanufilterv1_botgrp')
+            InlineKeyboardButton('♛ 𝙼𝙾𝚁𝙴 𝙳𝙴𝚃𝙰𝙸𝙻𝚂 ♛', url='https://t.me/sanufilterv1_botgrp')
             ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
