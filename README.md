@@ -1,6 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=300&pause=1000&color=F74A41&width=6000&height=1900&lines=WELCOME+TO+ARAKKAL+ABU+ROBOT)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=300&pause=1000&color=F74A41&width=6000&height=1900&lines=WELCOME+TO+AjmalAJMAL+MAALIK+BOT)](https://git.io/typing-svg)
 <p align="center">
-  <img src="https://graph.org/file/bacc9419b43a065aa5ab8.jpg" alt="MatRixBotz LOGO">
+  <img src="https://graph.org/file/e9efc24a4a79a14244d04.jpg" alt="Ajmal Maalik LOGO">
 </p>
 <h1 align="center">
   <b> 𝘼𝙍𝘼𝙆𝙆𝘼𝙇 𝘼𝘽𝙐 𝐁𝐎𝐓</b>
@@ -79,5 +79,5 @@ groups_broadcast - to broadcast a message to all groups
 
 ## TELAGRAM SUPPORT 
 
-* [![SANU BOTS](https://img.shields.io/badge/sanu%20-Bots-red)](https://t.me/+LVTlT_SJ_ZZkNmY1)
+* [![AJMAL BOTS](https://img.shields.io/badge/Telegram%20-AjmalFilterBot-orange)](https://t.me/+-CGCwzSo4_Y3ODQ1)
 
