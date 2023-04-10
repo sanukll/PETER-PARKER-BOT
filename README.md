@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=300&pause=1000&color=F74A41&width=6000&height=1900&lines=WELCOME+TO+AjmalAJMAL+MAALIK+BOT)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=300&pause=1000&color=F74A41&width=6000&height=1900&lines=WELCOME+TO+AJMAL+MAALIK+BOT)](https://git.io/typing-svg)
 <p align="center">
   <img src="https://graph.org/file/e9efc24a4a79a14244d04.jpg" alt="Ajmal Maalik LOGO">
 </p>
