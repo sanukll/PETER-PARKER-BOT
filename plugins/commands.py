@@ -46,7 +46,7 @@ async def start(client, message):
              InlineKeyboardButton('➣ 𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂 & 𝙶𝚁𝙾𝚄𝙿𝚂', callback_data='channels')
         ],  [
 
-            InlineKeyboardButton(' ☛ 𝙷𝙴𝙻𝙿 ☚ ', callback_data='help'),
+            InlineKeyboardButton(' ☛ 𝙷𝙴𝙻𝙿 ☚ ', callback_data='help2'),
 
             InlineKeyboardButton(' ☛ 𝙰𝙱𝙾𝚄𝚃 ☚ ', callback_data='about')
 
@@ -101,7 +101,7 @@ async def start(client, message):
              InlineKeyboardButton('➣ 𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂 & 𝙶𝚁𝙾𝚄𝙿𝚂', callback_data='channels')
         ],  [
 
-            InlineKeyboardButton(' ☛ 𝙷𝙴𝙻𝙿 ☚ ', callback_data='help'),
+            InlineKeyboardButton(' ☛ 𝙷𝙴𝙻𝙿 ☚ ', callback_data='help2'),
 
             InlineKeyboardButton(' ☛ 𝙰𝙱𝙾𝚄𝚃 ☚ ', callback_data='about')
 
