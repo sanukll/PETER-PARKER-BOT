@@ -849,7 +849,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('➣ 𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂 & 𝙶𝚁𝙾𝚄𝙿𝚂', callback_data='channels')
         ],  [
 
-            InlineKeyboardButton(' ☛ 𝙷𝙴𝙻𝙿 ☚ ', callback_data='help'),
+            InlineKeyboardButton(' ☛ 𝙷𝙴𝙻𝙿 ☚ ', callback_data='help2'),
 
             InlineKeyboardButton(' ☛ 𝙰𝙱𝙾𝚄𝚃 ☚ ', callback_data='about')
 
@@ -1004,7 +1004,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('♛ 𝙼𝙾𝚁𝙴 𝙳𝙴𝚃𝙰𝙸𝙻𝚂 ♛', url='https://t.me/sanufilterv1_botgrp')
+            InlineKeyboardButton('♛ 𝙼𝙾𝚁𝙴 𝙳𝙴𝚃𝙰𝙸𝙻𝚂 ♛', url='https://t.me/sanubots')
             ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
